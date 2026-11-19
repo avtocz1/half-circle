@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+     font-size: 62.5% /*does this only affects font-size or works on everyhing? */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+/* option 1 */
+
+/* .circle {
+    background-color: red;
+    height: 8rem;
+    aspect-ratio: 1;
+    border-top-left-radius: 100%;
+}
+
+.circle::after {
+    content: "";
+    display: block;
+    background-color: red;
+    height: 8rem;
+    aspect-ratio: 1;
+    border-top-right-radius: 100%;
+    margin-left: 100%;
+} */
+
+/* option 2 */
+
+/* #circle {
+    width: 16rem;
+    aspect-ratio: 1;
+} */
